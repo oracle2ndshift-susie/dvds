@@ -1,4 +1,4 @@
-File: README.dat
+File: README.md
 
 Purpose: This repo builds a dvd library with both viewing and options for adding 
   or editing items in your library.
@@ -13,7 +13,7 @@ Prerequisites:
 
 Choose a Disk location which is readable by your web browser service.  e.g. /var/www/html
 
-  cd /var/www/html
+  - cd /var/www/html
 
 Pull the code:
 
