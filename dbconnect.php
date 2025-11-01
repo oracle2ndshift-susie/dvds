@@ -9,7 +9,7 @@
 //
   $db_host = 'localhost';
   $db_user = 'dba';
-  $db_pwd  = 'ground0';
+  $db_pwd  = 'dba';
   $db_name = 'o2s';
   $version = '5.0';
 //

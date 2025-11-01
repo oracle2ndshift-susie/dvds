@@ -3,9 +3,9 @@
 // database
 //
 $db_user = 'dba';
-$db_pwd  = 'ground0';
+$db_pwd  = 'dba';
 $db_host = 'localhost';
-$db_name = 'rm_dvds';
+$db_name = 'o2s';
 $db_tab  = 'dvds';
 
 $php_self   = $_SERVER['PHP_SELF'];

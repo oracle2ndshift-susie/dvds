@@ -5,9 +5,18 @@
 -- history
 --     swhite 19-may-14 created
 
+-- login with root user
+  mysql -u root -p
+
 -- create  database
 select 'create database o2s';
 create database o2s;
+
+-- create new user
+select 'new user=dba, new password=dba";
+create user 'dba'@'localhost' identified by 'dba';
+grant all privileges on *.* to 'dba'@'localhost';
+flush privileges;
 
 -- create table dvds
 select 'Create o2s.dvds';

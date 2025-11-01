@@ -4,8 +4,7 @@ echo "pwd = `pwd`"
 mkdir dvds_gif
 ls -ltr
 
-echo 'Enter database username: '; read dbuser
-echo 'Enter database password: '; read dbpwd
-mysql -u${dbuser} -p${dbpwd} -Dsys < build.sql
+echo 'Enter database root password: '; read dbpwd
+mysql -Dsys -u root -p  < build.sql
 
 
