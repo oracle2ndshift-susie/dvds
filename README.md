@@ -1,7 +1,7 @@
 File: README.md
 
-Purpose: This repo builds a localhost dvd library with options for both viewing and adding 
-  or editing items in your library.
+Purpose: This repo builds a localhost dvd library and browser-served application with options for 
+  both viewing and adding or editing items in your library.
   
 History:  Susie White 2010 Created
 
