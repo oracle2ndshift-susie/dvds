@@ -30,3 +30,7 @@ and remember to edit the env.php and dbconnect.php files to reflect the new pass
 
   - sh build.sh
 
+Now you should be able to access, view and update your library.  
+
+  - http://localhost/dvds/index.php
+
