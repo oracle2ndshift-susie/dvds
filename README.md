@@ -14,6 +14,8 @@ Prerequisites:
 Choose a Disk location which is readable by your web browser service.  e.g. /var/www/html
 
   - cd /var/www/html
+  - mkdir dvds
+  - cd dvds
 
 Pull the code:
 
@@ -21,7 +23,6 @@ Pull the code:
 
 Cd to the newly created dvds repo and then the admin directory with build scripts:  
 
-  - cd dvds
   - cd admin
 
 Run the build.sh, which creates the o2s database, dvds table, function and an 
