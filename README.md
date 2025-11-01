@@ -19,6 +19,8 @@ Cd to the newly created dvds repo and then the admin directory with build script
   cd dvds
   cd admin
 
-Run the build.sh, which creates the o2s database, dvds table and 1 function.
+Run the build.sh, which creates the o2s database, dvds table, function and an 
+application user called 'dba' with password 'dba.  Feel free to change the password
+and remember to edit the env.php and dbconnect.php files to reflect the new password.
   sh build.sh
 
