@@ -10,9 +10,9 @@
 //
   $db_host = 'localhost';
   $db_user = 'dba';
-  $db_pwd  = 'dba';
+  $db_pwd  = 'Template_Password';
   $db_name = 'o2s';
-  $version = '5.0';
+  $version = 'Template_Version';
 //
 // connection: v5.0 or 5.2 or 8.0
 //
