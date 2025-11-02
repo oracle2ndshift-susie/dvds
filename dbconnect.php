@@ -1,7 +1,8 @@
 <?php
-// filename orawiki_db.php
-// purpose  set up database connection, handle 2 mysql versions
-// usage    include "orawiki_db.php";
+// filename dbconnect.php
+// purpose  set up database connection, handle 2 mysql versions.  
+//     change the version number to support a mysql version other than 5.0
+// usage    include "dbconnect.php";
 // history  
 //      swhite  25-may-14       created
 //
