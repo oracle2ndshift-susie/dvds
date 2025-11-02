@@ -15,9 +15,7 @@ Prerequisites:
 Choose a Disk location which is readable by your web browser service.  e.g. /var/www/html
 
   - grep -i 'DocumentRoot' /etc/httpd/conf/httpd.conf -or- grep -i 'DocumentRoot' /etc/apache2/sites-available/*.conf
-  - cd <to DocumentRoot>
-  - mkdir dvds
-  - cd dvds
+  - cd '<to DocumentRoot>'
 
 Pull the code:
 
