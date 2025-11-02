@@ -7,7 +7,7 @@ do
   git clone --recursive https://github.com/oracle2ndshift-susie/dvds.git
   cd dvds
   echo 'Enter database root password: '; read dbpwd
-  sed -i "s/Template_Password/${dbpwd}/g" admin/build.sql
-  mysql -Dsys -u root -p  < admin/build.sql
+  sed -i "s/Template_Password/${dbpwd}/g" build.sql
+  mysql -Dsys -u root -p  < build.sql
 done
 
