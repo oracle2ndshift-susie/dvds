@@ -14,7 +14,7 @@ create database o2s;
 
 -- create new user
 select 'new user=dba, new password=dba";
-create user 'dba'@'localhost' identified by 'dba';
+create user 'dba'@'localhost' identified by 'Template_Password';
 grant all privileges on *.* to 'dba'@'localhost';
 flush privileges;
 
