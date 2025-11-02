@@ -14,7 +14,8 @@ Prerequisites:
 
 Choose a Disk location which is readable by your web browser service.  e.g. /var/www/html
 
-  - cd /var/www/html
+  - grep -i 'DocumentRoot' /etc/httpd/conf/httpd.conf
+  - cd <to DocumentRoot>
   - mkdir dvds
   - cd dvds
 
