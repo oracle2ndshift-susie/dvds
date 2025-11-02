@@ -9,7 +9,9 @@ Prerequisites:
 
   - Supported operating system: Linux
   - You must already have your Mysql software installed and default sys database installed.
-  - Visit this link if you need mysql: https://dev.mysql.com/doc/refman/8.4/en/linux-installation.html
+  - Visit this link if you need mysql:
+  -   Linux: https://dev.mysql.com/doc/refman/8.4/en/linux-installation.html
+  -   Mac:   https://dev.mysql.com/doc/mysql-macos-excerpt/5.7/en/macos-installation.html
   - Mysql binary available in your path.
 
 Choose a Disk location which is readable by your web browser service.  e.g. /var/www/html
